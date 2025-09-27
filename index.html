@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>سيرة ذاتية - دانة اللحياني</title>
+  <!-- أيقونات -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: "Tahoma", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #74b9ff, #a29bfe);
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px 50px;
+      border-radius: 16px;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #2d3436;
+      text-align: center;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #74b9ff; }
+      to { text-shadow: 0 0 20px #a29bfe; }
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 22px;
+      color: #0984e3;
+      border-bottom: 2px solid #dfe6e9;
+      padding-bottom: 5px;
+      position: relative;
+    }
+
+    h2::before {
+      content: "★";
+      position: absolute;
+      left: -25px;
+      color: #6c5ce7;
+      animation: bounce 1.5s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .info p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+
+    .highlight {
+      color: #0984e3;
+      font-weight: bold;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 25px;
+      margin-top: 10px;
+    }
+
+    .skills-grid div {
+      background: #f1f2f6;
+      padding: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .skills-grid div:hover {
+      background: #74b9ff;
+      color: #fff;
+      transform: translateY(-5px) scale(1.05);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+      padding: 8px;
+      background: #f9f9f9;
+      border-left: 5px solid #6c5ce7;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      background: #dfe6e9;
+      transform: translateX(-5px);
+    }
+
+    .social {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social a {
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 20px;
+      color: #636e72;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      color: #6c5ce7;
+      transform: scale(1.3);
+    }
+
+    .footer {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>دانة خالد اللحياني</h1>
+    <div class="info" style="text-align:center;">
+      <p><i class="fa-solid fa-phone"></i> <span class="highlight">الجوال:</span> +966545474445</p>
+      <p><i class="fa-solid fa-envelope"></i> <span class="highlight">الإيميل:</span> danalahyani2018@gmail.com</p>
+      <p><i class="fa-brands fa-linkedin"></i> <span class="highlight">LinkedIn:</span> Danah Kasled</p>
+      <p><i class="fa-solid fa-graduation-cap"></i> <span class="highlight">التخصص:</span> علوم الحاسب</p>
+    </div>
+
+    <h2>الملف الشخصي</h2>
+    <p>طالبة علوم حاسب طموحة ومنظمة، أمتلك مهارات أساسية في برمجة وتطوير الويب. سريعة التعلم، ملتزمة، وأسعى لاكتساب الخبرة العملية والمساهمة في نجاح الفريق وتطوير مهاراتي المهنية باستمرار.</p>
+
+    <h2>المهارات</h2>
+    <div class="skills-grid">
+      <div>Java – حل المشكلات</div>
+      <div>HTML – العمل الجماعي</div>
+      <div>SQL – القيادة</div>
+      <div>تحليل البيانات – إدارة الوقت</div>
+      <div>Python</div>
+      <div>JavaScript</div>
+    </div>
+
+    <h2>التعليم</h2>
+    <p>جامعة أم القرى – مكة المكرمة، المملكة العربية السعودية<br>
+    بكالوريوس علوم الحاسب (2023 – متوقع التخرج: 2027)</p>
+
+    <h2>الشهادات</h2>
+    <ul>
+      <li>مايكروسوفت – مقدمة في الذكاء الاصطناعي</li>
+      <li>سيسكو – مقدمة في الأمن السيبراني</li>
+      <li>منصة سطر – مقدمة في علم البيانات</li>
+    </ul>
+
+    <h2>المشاريع</h2>
+    <p>القدرة على إدارة مشاريع متعددة في وقت واحد والالتزام بالمواعيد النهائية بدقة، مع المحافظة على أعلى معايير الجودة.</p>
+
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:danalahyani2018@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+966545474445"><i class="fa-solid fa-phone"></i></a>
+    </div>
+
+    <div class="footer">
+      © 2025 جميع الحقوق محفوظة
+    </div>
+  </div>
+</body>
+</html>
